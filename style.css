@@ -7,3 +7,73 @@ h1{
 h2{
     color: white;
 }
+
+#Button{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    size: 20px;
+}
+
+#NewTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#PopUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+}
+
+#form {
+    background-color: cornsilk;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 25%;
+}
+
+#Task {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: darkkhaki;
+}
+
+input#Task {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: thin white;
+}
+
+input#Time {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border:thin white;
+}
